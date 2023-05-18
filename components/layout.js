@@ -4,9 +4,9 @@ import Footer from './footer';
 export default function Layout({ children }) {
   return (
     <>
-      <html class="bg-gray-950 text-white">
+      <html className="bg-gray-950 text-white">
         <Header />
-        <body class="h-screen"><main>{children}</main></body>
+        <body className="h-screen"><main>{children}</main></body>
         <Footer />
 </html>
 </>
