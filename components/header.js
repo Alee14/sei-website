@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
     return (
@@ -8,7 +9,7 @@ export default function Header() {
         <div className="bg-green-800 py-3 px-2 text-white font-semibold text-right"><a href="https://aircs.racing/"><i className="fa fa-arrow-left mr-2"></i> aircs.racing</a></div>
         <div className="flex items-center justify-between flex-wrap p-6 bg-slate-950">
            <div className="flex items-center flex-shrink-0 text-white mr-6">
-            <p className="font-semibold text-xl tracking-tight">SEI.GOV</p>
+            <p className="font-semibold text-xl tracking-tight"><Image src="/sei_flag.svg" width={100} height={50} alt="SEI Flag"/></p>
             </div>
             <div className="flex items-center w-auto">
             <div className="text-sm flex-grow">
@@ -19,8 +20,8 @@ export default function Header() {
                     ['fas fa-note-sticky', 'Reports', '/reports'],
                 ].map(([icon, title, url]) => (
                    // eslint-disable-next-line react/jsx-key
-                   <Link href={url} className="transition duration-150 ease-out hover:ease-in inline-block mt-0 text-base text-slate-300 hover:text-white mr-4 hover:bg-green-800 rounded-lg p-2">
-                    <div>
+                   <Link href={url}>
+                    <div className="transition duration-150 ease-out hover:ease-in inline-block mt-0 text-base text-slate-300 hover:text-white mr-4 hover:bg-green-800 rounded-lg p-2">
                     <span className="mr-1">
                         <i className={icon}></i>
                     </span> 
