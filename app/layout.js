@@ -1,9 +1,9 @@
 import './globals.css'
-import { Exo } from 'next/font/google'
+import {Exo, Open_Sans} from 'next/font/google'
 import Navbar from "@/components/Navbar";
 import PSA from "@/components/PSA";
 
-const exo = Exo({ subsets: ['latin'] })
+const font = Open_Sans({ subsets: ['latin'] })
 
 export const metadata = {
   title: {
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={exo.className}>
+      <body className={font.className}>
       <div className="sm:px-10 px-5 py-0.5 font-medium space-x-3 text-right">
           <a href="https://aircs.racing" className="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">aircs.racing ↗</a>
       </div>

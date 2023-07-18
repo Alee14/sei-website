@@ -11,11 +11,16 @@ const PSA = () => {
             defaultStyle += ' ' + styleImportant
             break;
         case 1:
+            important = "Latest News:"
+            styleImportant = "bg-zinc-700"
+            defaultStyle += ' ' + styleImportant
+            break;
+        case 2:
             important = "WARNING!"
             styleImportant = "bg-yellow-700"
             defaultStyle += ' ' + styleImportant
             break;
-        case 2:
+        case 3:
             important = "EMERGENCY!"
             styleImportant = "bg-red-800"
             defaultStyle += ' ' + styleImportant
@@ -29,11 +34,11 @@ const PSA = () => {
             <div className="flex flex-row space-x-3">
                 <p>{psaMessage.announcement}</p>
                 <p className="text-blue-200 hover:text-blue-500 active:text-blue-700">
-                {psaMessage.link && (
-                    <Link href={psaMessage.link}>
-                        Learn more ↗
-                    </Link>
-                )}</p>
+                    {psaMessage.link && (
+                        <Link href={psaMessage.link}>
+                            Learn more ↗
+                        </Link>
+                    )}</p>
             </div>
         </div>
     )

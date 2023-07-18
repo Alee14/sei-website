@@ -15,7 +15,7 @@ export default function Home() {
     <main className="flex flex-col">
         <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-500 bg-blend-multiply">
             <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 space-y-3">
-                <h1 className="font-medium md:text-5xl text-4xl">Welcome to Southeastern Islands</h1>
+                <h1 className="font-bold md:text-5xl text-4xl">Welcome to Southeastern Islands</h1>
                 <h2 className="font-light md:text-3xl text-xl">The official website of the Government of Southeastern Islands</h2>
             </div>
         </div>
@@ -23,34 +23,34 @@ export default function Home() {
                 <li>
                     <div className="bg-center bg-no-repeat bg-[url('/cantons/swampisland.webp')] bg-gray-600 bg-blend-multiply">
                         <div className="sm:px-40 px-10 py-14 space-y-2">
-                            <h1 className="font-medium sm:text-5xl text-3xl">Swamp Island</h1>
+                            <h1 className="font-light sm:text-5xl text-3xl">Swamp Island</h1>
                             <span>Leader: Alee</span>
                             <h2 className="text-lg">Capital of Southeastern Islands and the original home of MinePot</h2>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div className="bg-center bg-no-repeat bg-[url('/regions/breadcroust.webp')] bg-gray-600 bg-blend-multiply">
+                    <div className="bg-center bg-no-repeat bg-[url('/cantons/nexusunderground.webp')] bg-gray-600 bg-blend-multiply">
                         <div className="sm:px-40 px-10 py-14 space-y-2">
-                            <h1 className="font-medium sm:text-5xl text-3xl">Nexus Underground</h1>
+                            <h1 className="font-light sm:text-5xl text-3xl">Nexus Underground</h1>
                             <span>Vacant</span>
                             <h2 className="text-lg">Home to MinePot Barton Centre and athletics</h2>
                         </div>
                 </div>
                 </li>
                 <li>
-                    <div className="bg-center bg-no-repeat bg-[url('/regions/skycity.webp')] bg-gray-600 bg-blend-multiply">
+                    <div className="bg-center bg-no-repeat bg-[url('/cantons/longhornhills.webp')] bg-gray-600 bg-blend-multiply">
                         <div className="sm:px-40 px-10 py-14 space-y-2">
-                            <h1 className="font-medium sm:text-5xl text-3xl">Longhorn Hills</h1>
+                            <h1 className="font-light sm:text-5xl text-3xl">Longhorn Hills</h1>
                             <span>Leader: Raina</span>
                          <h2 className="text-lg">A city that floats in the sky</h2>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <div className="bg-center bg-no-repeat bg-[url('/regions/silicon-valley.webp')] bg-gray-600 bg-blend-multiply">
+                    <div className="bg-center bg-no-repeat bg-[url('/cantons/foretquebec.webp')] bg-gray-600 bg-blend-multiply">
                         <div className="sm:px-40 px-10 py-14 space-y-2">
-                            <h1 className="font-medium sm:text-5xl text-3xl">Foret Quebec</h1>
+                            <h1 className="font-light sm:text-5xl text-3xl">Foret Quebec</h1>
                             <span>Leader: Idk837384</span>
                             <h2 className="text-lg">Where all things tech-related lie</h2>
                         </div>
